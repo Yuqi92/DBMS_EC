@@ -1,0 +1,22 @@
+This database is on MySQL AWS server so all you need to do is to make sure you have MySQL on the computer. 
+If you don't have, please download it from the website provided as follows:
+
+1. Download mysql workbench(a unified visual tool)here:
+https://dev.mysql.com/downloads/workbench/
+
+2.Install mysql workbench, open it and come to the MySQL Connection section. 
+
+3. Click + (close to MySQL Connections) to connect to my database.
+
+4. Input database information:
+
+Connection name: Elixr_guest
+Hostname: clinical-trial-criteria.c5gnhosuqybj.us-east-1.rds.amazonaws.com
+Port: 3306
+Username: guest
+Password: guest@123
+
+There are two schemas in this database. 
+One is called criteria, including all the criteria information with trial information of Alzheimer's disease. 
+The other one is called CLINICALTRIAL, including the introduction information (without criteria) of the entire disease spectrum at CT.gov.
+
